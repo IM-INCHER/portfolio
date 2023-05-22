@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GameFramework2D">
+      <UniqueIdentifier>{72b7e715-2d13-4c3b-86eb-9e7444649717}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\Manager">
+      <UniqueIdentifier>{43166b1b-71e2-4926-b01a-5a24688c5644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy">
+      <UniqueIdentifier>{ed1c40e9-7c0e-4dc2-be58-191e84b2348b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\image">
+      <UniqueIdentifier>{b7f792ff-d4a3-4aff-a5b2-4439ecc1cb3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\utils">
+      <UniqueIdentifier>{c71a879e-cc02-4960-a9b8-ebf05a67a494}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\timer">
+      <UniqueIdentifier>{b45827f9-6432-4f13-8df9-dec9718d730b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework2D\progressBar">
+      <UniqueIdentifier>{4afa6906-b614-4db5-b22e-8ee7c7cee659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\enemy">
+      <UniqueIdentifier>{61f9a08b-c7cd-4082-a5df-cdf39ae8cbe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\object">
+      <UniqueIdentifier>{87043130-16c3-4f20-a8db-c4b61e2c40e5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>GameFramework2D\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>GameFramework2D</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>GameFramework2D\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="gameStudy.h">
+      <Filter>gameStudy</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>GameFramework2D\image</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>GameFramework2D\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>GameFramework2D\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>GameFramework2D\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>GameFramework2D\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="progressBar.h">
+      <Filter>GameFramework2D\progressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="mario.h">
+      <Filter>gameStudy</Filter>
+    </ClInclude>
+    <ClInclude Include="marioWorld.h">
+      <Filter>gameStudy</Filter>
+    </ClInclude>
+    <ClInclude Include="coin.h">
+      <Filter>gameStudy\object</Filter>
+    </ClInclude>
+    <ClInclude Include="goomba.h">
+      <Filter>gameStudy\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="block.h">
+      <Filter>gameStudy\object</Filter>
+    </ClInclude>
+    <ClInclude Include="pipe.h">
+      <Filter>gameStudy\object</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsApi.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>GameFramework2D</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>GameFramework2D\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="gameStudy.cpp">
+      <Filter>gameStudy</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>GameFramework2D\image</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>GameFramework2D\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>GameFramework2D\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>GameFramework2D\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>GameFramework2D\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="progressBar.cpp">
+      <Filter>GameFramework2D\progressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="mario.cpp">
+      <Filter>gameStudy</Filter>
+    </ClCompile>
+    <ClCompile Include="marioWorld.cpp">
+      <Filter>gameStudy</Filter>
+    </ClCompile>
+    <ClCompile Include="coin.cpp">
+      <Filter>gameStudy\object</Filter>
+    </ClCompile>
+    <ClCompile Include="goomba.cpp">
+      <Filter>gameStudy\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="block.cpp">
+      <Filter>gameStudy\object</Filter>
+    </ClCompile>
+    <ClCompile Include="pipe.cpp">
+      <Filter>gameStudy\object</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
